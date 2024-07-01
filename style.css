@@ -12,20 +12,20 @@ body {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
     margin-top: 20px;
 }
 
 .card {
     width: 90%;
-    max-width: 500px;
+    max-width: 600px;
     background: gray;
     color: #fff;
     margin: 20px;
     border: 3px solid white;
     border-radius: 10px;
-    padding: 30px 20px;
+    padding: 40px 30px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -34,12 +34,12 @@ body {
 .button-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .move-button {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border: 3px solid white;
     border-radius: 50%;
     background-color: rgb(25, 25, 25);
@@ -60,27 +60,27 @@ body {
 }
 
 .move-img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 .result {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 30px;
 }
 
 .score {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .reset {
     background-color: white;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     font-family: 'Aldrich', sans-serif;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: none;
     cursor: pointer;
     border-radius: 50px;
@@ -102,12 +102,12 @@ body {
 }
 
 .moves-img {
-    height: 50px;
+    height: 60px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .title {
-        font-size: 38px;
+        font-size: 34px;
     }
 
     .card {
@@ -115,25 +115,25 @@ body {
     }
 
     .move-button {
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
     }
 
     .move-img {
         width: 55px;
-        height: 65px;
+        height: 55px;
     }
 
     .result {
-        font-size: 32px;
-    }
-
-    .score {
         font-size: 28px;
     }
 
+    .score {
+        font-size: 22px;
+    }
+
     .reset {
-        font-size: 24px;
-        padding: 18px 26px;
+        font-size: 16px;
+        padding: 10px 20px;
     }
 }
