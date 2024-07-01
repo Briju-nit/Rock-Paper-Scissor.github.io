@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: 'Aldrich', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 90%;
+    max-width: 500px;
+    background: gray;
+    color: #fff;
+    margin: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.move-button {
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.25s, box-shadow 0.25s, opacity 0.5s;
+}
+
+.move-button:hover {
+    transform: translateY(-0.25em);
+    box-shadow: 8px 2px 2px black;
+}
+
+.move-button:active {
+    opacity: 0.75;
+}
+
+.move-img {
+    width: 50px;
+    height: 50px;
+}
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.reset {
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Aldrich', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: transform 0.25s, box-shadow 0.25s, opacity 0.5s;
+    margin-top: 20px;
+}
+
+.reset:hover {
+    transform: translateY(-0.25em);
+    box-shadow: 8px 2px 2px black;
+}
+
+.reset:active {
+    opacity: 0.75;
+}
+
+.moves {
+    margin-top: 20px;
+}
+
+.moves-img {
+    height: 50px;
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 38px;
+    }
+
+    .card {
+        padding: 35px 25px;
+    }
+
+    .move-button {
+        width: 100px;
+        height: 100px;
+    }
+
+    .move-img {
+        width: 55px;
+        height: 65px;
+    }
+
+    .result {
+        font-size: 32px;
+    }
+
+    .score {
+        font-size: 28px;
+    }
+
+    .reset {
+        font-size: 24px;
+        padding: 18px 26px;
+    }
+}

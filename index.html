@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock-Paper-Scissor Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <p class="title">Rock-Paper-Scissor Game</p>
+        <div class="button-container">
+            <button class="move-button" onclick="playGame('Rock');">
+                <img src="assets/Rock-emoji.png" class="move-img">
+            </button>
+            <button class="move-button" onclick="playGame('Paper');">
+                <img src="assets/Paper-emoji.png" class="move-img">
+            </button>
+            <button class="move-button" onclick="playGame('Scissor');">
+                <img src="assets/Scissor-emoji.png" class="move-img">
+            </button>
+        </div>
+        <p class="js-result result"></p>
+        <p class="js-moves moves"></p>
+        <p class="js-score score"></p>
+        <p style="text-align: center;">
+            <button class="reset" onclick="resetScore();">Reset Score</button>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
