@@ -47,7 +47,7 @@ function playGame(playerMove) {
     updatescoreElement();
 
     document.querySelector('.js-result').innerHTML = result;
-    document.querySelector('.js-moves').innerHTML = `You <img src="assets/${playerMove}-emoji.png" class="moves-img"> VS <img src="assets/${computerMove}-emoji.png" class="moves-img">`;
+    document.querySelector('.js-moves').innerHTML = `You <img src="assets/${playerMove}-emoji.png" class="moves-img"> VS <img src="assets/${computerMove}-emoji.png" class="moves-img"> <img style="width: 50px;" src="assets/computer.png" class="com">`;
 }
 
 function pickComputerMove() {
